@@ -1,0 +1,30 @@
+{
+  "name": "@nhcarrigan/logger",
+  "version": "0.0.1",
+  "description": "Our custom logging package, which pipes logs to our alerts server.",
+  "type": "module",
+  "main": "prod/index.js",
+  "scripts": {
+    "lint": "eslint src --max-warnings 0",
+    "build": "rm -rf prod && tsc",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.nhcarrigan.com/nhcarrigan/logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "See license in LICENSE.md",
+  "bugs": {
+    "url": "https://git.nhcarrigan.com/nhcarrigan/logger/issues"
+  },
+  "homepage": "https://git.nhcarrigan.com/nhcarrigan/logger",
+  "devDependencies": {
+    "@nhcarrigan/eslint-config": "5.1.0",
+    "@nhcarrigan/typescript-config": "4.0.0",
+    "@types/node": "22.13.1",
+    "eslint": "9.20.0",
+    "typescript": "5.7.3"
+  }
+}
