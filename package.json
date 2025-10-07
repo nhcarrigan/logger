@@ -1,6 +1,6 @@
 {
   "name": "@nhcarrigan/logger",
-  "version": "1.1.0",
+  "version": "1.1.0-hotfix",
   "description": "Our custom logging package, which pipes logs to our alerts server.",
   "type": "module",
   "main": "prod/index.js",
